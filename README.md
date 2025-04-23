@@ -21,4 +21,4 @@ python -m uvicorn main:app --reload
 - GET /reviews/product/{id}
 - GET /products/{id}/sentiment_summary
 
-![Texte alternatif](.)
+![Texte alternatif](img/imd.JPG)
