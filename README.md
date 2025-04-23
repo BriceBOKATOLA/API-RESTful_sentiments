@@ -22,3 +22,7 @@ python -m uvicorn main:app --reload
 - GET /products/{id}/sentiment_summary
 
 ![Texte alternatif](img/imd.JPG)
+
+ 👉 Pas de endpoint défini @app.get("/") dans le main.py, alors FastAPI  retourne 404 Not Found
+ 
+ ➡️ FastAPI déclenche un 307 quand tu oublies un / final dans l’URL d’un endpoint.
