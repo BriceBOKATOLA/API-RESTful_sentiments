@@ -20,3 +20,5 @@ python -m uvicorn main:app --reload
 - POST /reviews
 - GET /reviews/product/{id}
 - GET /products/{id}/sentiment_summary
+
+![Texte alternatif](.)
